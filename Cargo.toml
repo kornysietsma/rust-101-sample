@@ -1,0 +1,16 @@
+[package]
+name = "rust_101"
+version = "0.0.1"
+authors = ["Korny Sietsma <korny@sietsma.com>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1.5"
+log = "0.4"
+
+[dev-dependencies]
+pretty_assertions = "0.6.1"
+
+[[bin]]
+name = "rust_101"
+path = "src/rust_101.rs"
