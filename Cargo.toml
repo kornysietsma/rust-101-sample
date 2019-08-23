@@ -13,4 +13,4 @@ pretty_assertions = "0.6.1"
 
 [[bin]]
 name = "rust_101"
-path = "src/rust_101.rs"
+path = "src/bin.rs"

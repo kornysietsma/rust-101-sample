@@ -3,19 +3,17 @@
 
 #[macro_use]
 extern crate failure;
-#[macro_use]
-extern crate log;
 
 use failure::Error;
 
-fn main() -> Result<(), Error> {
-    info!("hello there {}", foo());
-    Ok(())
-}
-
-fn foo() -> String {
+pub fn foo() -> String {
     "Foo!".to_owned()
 }
+
+pub fn bar() -> Result<String, Error> {
+    Ok("Bar!".to_owned())
+}
+
 
 #[cfg(test)]
 mod test {
