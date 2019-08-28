@@ -1,5 +1,8 @@
 #![warn(clippy::all)]
 
+mod step_1_fibs;
+mod step_2_fizzbuzz;
+
 extern crate failure;
 
 use failure::Error;

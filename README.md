@@ -80,7 +80,9 @@ If the "dead code" warnings get really annoying, you can add ` #[allow(dead_code
 
 ## Resources
 
-[A gentle introduction to rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) - a little out of date but great - I'm probably going to borrow some examples from here for my workshop!
+[A gentle introduction to rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html) - a little out of date but great - I'm probably going to talk through some code here to fill the gaps in my workshop examples!
+
+Also [Rustlings](https://github.com/rust-lang/rustlings) has some nice ideas too.
 
 The various Rust docs are awesome - you get a whole rust book for free, plus "rust by example"
 
@@ -89,3 +91,5 @@ https://cheats.rs/ is a great rust language cheat sheet
 https://github.com/rust-unofficial/awesome-rust is a great list of useful rust libraries
 
 Public rust libraries are also browsable at https://crates.io/
+
+Rust + WebAssembly? look at https://rustwasm.github.io/docs/book/
